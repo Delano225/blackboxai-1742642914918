@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SnapBet - Pariez sur vos défis quotidiens</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-purple-600 to-blue-500 min-h-screen">
+    <!-- Navigation -->
+    <nav class="bg-white bg-opacity-10 backdrop-blur-lg fixed w-full z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center">
+                    <div class="text-2xl font-bold text-white">SnapBet</div>
+                </div>
+                <div class="hidden md:block">
+                    <div class="flex items-center space-x-4">
+                        <a href="#features" class="text-white hover:text-purple-200 px-3 py-2 rounded-md text-sm font-medium">Fonctionnalités</a>
+                        <a href="#modes" class="text-white hover:text-purple-200 px-3 py-2 rounded-md text-sm font-medium">Modes de jeu</a>
+                        <a href="#security" class="text-white hover:text-purple-200 px-3 py-2 rounded-md text-sm font-medium">Sécurité</a>
+                        <button class="bg-white text-purple-600 px-4 py-2 rounded-lg font-medium hover:bg-purple-100 transition duration-300">
+                            Commencer
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="pt-32 pb-20 px-4">
+        <div class="max-w-7xl mx-auto text-center">
+            <h1 class="text-4xl md:text-6xl font-bold text-white mb-6">
+                Transformez vos défis en paris excitants
+            </h1>
+            <p class="text-xl text-purple-100 mb-12 max-w-3xl mx-auto">
+                Créez, partagez et relevez des défis personnalisés. Pariez avec vos amis ou en solo, et transformez vos accomplissements en gains réels.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <button class="bg-white text-purple-600 px-8 py-4 rounded-lg font-medium hover:bg-purple-100 transition duration-300 text-lg">
+                    Créer un compte
+                </button>
+                <button class="border-2 border-white text-white px-8 py-4 rounded-lg font-medium hover:bg-white hover:text-purple-600 transition duration-300 text-lg">
+                    Découvrir SnapBet
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Features Section -->
+    <div id="features" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-16">
+                Fonctionnalités principales
+            </h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Feature 1 -->
+                <div class="bg-purple-50 p-6 rounded-xl">
+                    <div class="w-12 h-12 bg-purple-600 rounded-lg flex items-center justify-center mb-4">
+                        <i class="fas fa-dice text-2xl text-white"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Paris Personnalisés</h3>
+                    <p class="text-gray-600">Créez vos propres défis et pariez sur tout ce que vous voulez. De simples pompes aux défis créatifs.</p>
+                </div>
+                <!-- Feature 2 -->
+                <div class="bg-purple-50 p-6 rounded-xl">
+                    <div class="w-12 h-12 bg-purple-600 rounded-lg flex items-center justify-center mb-4">
+                        <i class="fas fa-users text-2xl text-white"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Mode Multijoueur</h3>
+                    <p class="text-gray-600">Pariez en groupe, défiez vos amis ou rejoignez des paris communautaires pour plus d'excitation.</p>
+                </div>
+                <!-- Feature 3 -->
+                <div class="bg-purple-50 p-6 rounded-xl">
+                    <div class="w-12 h-12 bg-purple-600 rounded-lg flex items-center justify-center mb-4">
+                        <i class="fas fa-robot text-2xl text-white"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">IA Intelligente</h3>
+                    <p class="text-gray-600">Notre IA vous suggère des défis personnalisés basés sur vos intérêts et habitudes.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Game Modes Section -->
+    <div id="modes" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-16">
+                Modes de jeu
+            </h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Mode 1 -->
+                <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition duration-300">
+                    <h3 class="text-xl font-semibold mb-3 text-purple-600">Mode Solo</h3>
+                    <p class="text-gray-600">Fixez-vous des objectifs personnels et pariez sur votre réussite.</p>
+                </div>
+                <!-- Mode 2 -->
+                <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition duration-300">
+                    <h3 class="text-xl font-semibold mb-3 text-purple-600">Mode Groupe</h3>
+                    <p class="text-gray-600">Créez des paris en groupe et partagez l'excitation avec vos amis.</p>
+                </div>
+                <!-- Mode 3 -->
+                <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition duration-300">
+                    <h3 class="text-xl font-semibold mb-3 text-purple-600">Mode Aléatoire</h3>
+                    <p class="text-gray-600">Laissez l'IA vous proposer des défis surprenants et stimulants.</p>
+                </div>
+                <!-- Mode 4 -->
+                <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition duration-300">
+                    <h3 class="text-xl font-semibold mb-3 text-purple-600">Mode Duel</h3>
+                    <p class="text-gray-600">Affrontez un autre joueur en face à face avec un arbitre.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Security Section -->
+    <div id="security" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-16">
+                Sécurité et confiance
+            </h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Security Feature 1 -->
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-shield-alt text-2xl text-purple-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Paiements Sécurisés</h3>
+                    <p class="text-gray-600">Transactions cryptées et multiples options de paiement sécurisées.</p>
+                </div>
+                <!-- Security Feature 2 -->
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-video text-2xl text-purple-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Vérification Vidéo</h3>
+                    <p class="text-gray-600">Système de preuve vidéo pour garantir l'authenticité des défis.</p>
+                </div>
+                <!-- Security Feature 3 -->
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-user-shield text-2xl text-purple-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Protection des Utilisateurs</h3>
+                    <p class="text-gray-600">Système anti-fraude et limites de paris pour votre sécurité.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CTA Section -->
+    <div class="py-20 bg-gradient-to-br from-purple-600 to-blue-500">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold text-white mb-8">
+                Prêt à relever le défi ?
+            </h2>
+            <p class="text-xl text-purple-100 mb-12 max-w-3xl mx-auto">
+                Rejoignez SnapBet dès aujourd'hui et commencez à transformer vos défis en opportunités excitantes.
+            </p>
+            <button class="bg-white text-purple-600 px-8 py-4 rounded-lg font-medium hover:bg-purple-100 transition duration-300 text-lg">
+                Créer un compte gratuitement
+            </button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">SnapBet</h3>
+                    <p class="text-gray-400">Transformez vos défis en paris excitants.</p>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Liens rapides</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white">À propos</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Comment ça marche</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">FAQ</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Légal</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white">Conditions d'utilisation</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Politique de confidentialité</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Mentions légales</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Suivez-nous</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
+                <p>&copy; 2024 SnapBet. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
